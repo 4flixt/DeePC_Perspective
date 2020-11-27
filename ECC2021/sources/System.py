@@ -107,7 +107,7 @@ class System:
         raise Exception('Cannot set time directly.')
 
 
-def random_u(u0, switch_prob=0.8, max_amp=np.pi):
+def random_u(u0, switch_prob=0.5, max_amp=np.pi):
     # Hold the current value with 80% chance or switch to new random value.
     u_next = (0.5-np.random.rand(u0.shape[0],1))*max_amp # New candidate value.
     switch = np.random.rand() >= (1-switch_prob) # switching? 0 or 1.
