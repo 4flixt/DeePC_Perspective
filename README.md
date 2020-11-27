@@ -20,6 +20,7 @@ All of our results are created using Python code (using Jupyter Notebooks) and t
 
 - numpy
 - matplotlib
+- scipy
 - CasADi
 
 **To investigate the code**, we recommend to either locally install Python (and the toolboxes) and then clone the repo **or** you you can use the Binder links listed below. Binder clones the repo on their servers and installs all packages automatically. This way you can get started immediately! 
@@ -28,7 +29,18 @@ All of our results are created using Python code (using Jupyter Notebooks) and t
 
 To get started, we recommend first having a look at our notebook ``./ECC2020/res_01_woNoise.ipynb``. The content of this notebook is used to create **Figure 2 in the paper** and explains our methods, tools and the investigated system model in great detail. It covers the **case of deterministic DeePC vs. our proposed method**.
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/4flixt/DeePC_Perspective/main?filepath=.%2FECC2021%2Fres_01_woNoise.ipynb)
 
+In **Figure 3** in the Paper we are comparing open-loop control of DeePC vs. MPC based on the multi-step prediction model. We present the code to reproduce these results in our notebook ``./ECC2020/res_02_open-loop_control.ipynb``.
+
+Finally, the results presented in Table 1 can be reproduced with the code in ``./ECC2020/res_03_Noise_closed_loop.ipynb``. Note that you will likely obtain different computation times for the variants of DeePC and our proposed method. We expect that the general trend is going to be reproducable, however. 
+
+
+You can find the links to binder (interactive) and the rendered Jupyter Notebook on Github (not-interactive) in the table below:
+
+| Content        | Element in Paper           | Binder Link  | Github Link |
+| ------------- |:-------------:| -----:| -----:|
+| Closed-loop deterministic     | Figure 2 | [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/4flixt/DeePC_Perspective/main?filepath=.%2FECC2021%2Fres_01_woNoise.ipynb) | [Link](./ECC2021/res_01_woNoise.ipynb) |
+| Open-loop non-deterministic  | Figure 3      |   [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/4flixt/DeePC_Perspective/main?filepath=.%2FECC2021%2Fres_02_open-loop_control.ipynb)| [Link](./ECC2021/res_02_open-loop_control.ipynb) |
+| Closed-loop non-dterministic | Table 1    |    [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/4flixt/DeePC_Perspective/main?filepath=.%2FECC2021%2Fres_03_Noise_closed_loop.ipynb) | [Link](./ECC2021/res_03_Noise_closed_loop.ipynb) |
 
 
