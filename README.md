@@ -1,4 +1,4 @@
-# A new perspective on data-enabled predictive control
+# On the relationship between data-enabled predictive control and subspace predictive control
 Accompanying  repository for our work "On the relationship between data-enabled predictive control and subspace predictive control" accepted at ECC 2021.
 
 ## Abstract
