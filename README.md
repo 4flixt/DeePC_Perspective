@@ -21,7 +21,7 @@ All of our results are created using Python code (using Jupyter Notebooks) and t
 - scipy
 - CasADi
 
-**To investigate the code**, we recommend to either locally install Python (and the toolboxes) and then clone the repo **or** you you can use the Binder links listed below. Binder clones the repo on their servers and installs all packages automatically. This way you can get started immediately! 
+To investigate the code, we recommend to either locally install Python (and the toolboxes) and then clone the repo **or** you you can use the Binder links listed below. Binder clones the repo on their servers and installs all packages automatically. This way you can get started immediately! 
 
 ## Presented Results
 
